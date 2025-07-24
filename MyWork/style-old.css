@@ -94,7 +94,7 @@
     padding-bottom: 200px;
 }
 
-.ourMission>.text {
+.ourMission>.text{
     margin-left: 25px;
 }
 
@@ -130,7 +130,7 @@
     line-height: 1.8;
 }
 
-.lineBefore>p {
+.lineBefore>p{
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-style: italic;
@@ -143,8 +143,7 @@
     color: #797979;
     line-height: 1.8;
 }
-
-#steve {
+#steve{
     font-style: normal;
     color: #1a1a1a;
     font-weight: 300;
@@ -153,12 +152,11 @@
     /* line-height: 1.8; */
 }
 
-.lineBefore {
+.lineBefore{
     position: relative;
     padding-left: 35px;
 }
-
-.lineBefore>p::before {
+.lineBefore>p::before{
     content: "";
     position: absolute;
     left: 0;
@@ -196,104 +194,5 @@
     position: relative;
     z-index: 2;
     display: block;
-}
-
-/* cart style */
-
-.cart__body {
-    /* margin: 5px; */
-    /* display: flex; */
-    justify-content: right;
-    align-items: center;
-    width: 450px;
-    height: 100%;
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border: 1px solid #1a1a1a;
-    box-sizing: border-box;
-    position: fixed;
-    top: 0;
-    right: 0;
-    scroll-behavior: smooth;
-    margin: 0;
-    padding: 0;
-}
-
-.container {
-    width: 70%;
-    margin: 0 auto;
-}
-
-.nav {
-    padding: 30px 0;
-    z-index: 999;
-}
-
-.nav__text {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #333333;
-}
-
-.nav__text>h1 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-size: 1.1rem;
-}
-
-.nav__text>p {
-    font-weight: 500;
-    font-size: 1.9rem;
-    padding-right: 60px;
-}
-
-.items {
-    margin-top: 10px;
-    height: 500px ;
-    overflow-y: auto;
-    scroll-behavior: smooth;
-}
-
-.item {
-    display: flex;
-}
-
-.items_text>p {
-    display: flex;
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-size: 1rem;
-    margin-left: 20px;
-    /* padding-left: 60px; */
-    align-items: center;
-    line-height: 2.5rem;
-    color: #6d6d6d;
-}
-.footer{
-    display: flex;
-}
-
-.footer__text{
-    font-family: "Poppins", sans-serif;
-    font-weight: 350;
-    font-size: 1.3rem;
-    margin-top: 20px;
-}
-.footer__btn{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 60px;
-}
-.footer__btn>button{
-    background-color: #222;
-    border-radius: 25px;
-    padding: 8px 30px;
-    color: rgb(253, 253, 253);
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
 }
 
